@@ -1,0 +1,45 @@
+{
+  "modal1": [{
+    "img": "TankMain.png ,TankMain2.png,TankMain3.png,TankMain4.png",
+    "title" : "Battle City Tank",
+    "tech": "Python",
+    "link": "https://github.com/asmita0105/Projects/tree/master/battleCityTank",
+    "desc": "This game was inspired by my childhood game of Tank. The objective of the game is to save the castle from enemy. Player can use mouse and keyboard to rotate/move the tank and shoot bullets. Tank has a health monitor to show how many more shells it can withstand. Difficulty level increases by increasing the speed and number of enemy bullets. Every level change replenishes the health meter. This game also has a background sound effect which helps player to concentrate."
+  }],
+  "modal2": [{
+    "img": "GH1.png,GH2.png,GH3.png",
+    "title" : "Garage Sale",
+    "tech": "Android, SQLite, Google API for maps",
+    "link": "https://github.com/asmita0105/Projects/tree/master/HyperGarageSale",
+    "desc": "An android app for garage sale. Users can create a new post for any item they wish to sell. They can capture multiple images, quote price and description of the objects. They can also tag a location or use current location. Users can search different posts using the search bar. The items are stored in SQLite database using content provider. All the postings are displayed using recycle view."
+  }],
+  "modal3": [{
+    "img": "GoTicket.png",
+    "title" : "GoTicket",
+    "tech": "JAVA EE with Hibernate and Spring, MySQL, HTML, CSS, AngularJS, JavaScript, YeoMan, Grunt, JUnit",
+    "link": "https://github.com/asmita0105/Projects/tree/master/goTicket",
+    "desc": "A RESTful movie ticket booking web application. The backend was implemented in Java EE using spring framework. The theater and show information was stored in MySQL database using Hibernate. The movie ticket service provided search option for shows and theater. It also provided movie booking service. The front end was written using HTML, CSS and AngularJS."
+  }],
+  "modal4": [{
+    "img": "moBackApps.png,moBackApps.png,moBackApps.png",
+    "title" : "moBack Apps",
+    "tech": "HTML5, CSS, AngularJS, JavaScript, YeoMan, Grunt",
+    "link": "https://www.moback.com/ours/#/",
+    "desc": "This was a project at moBack Inc. which lists all the games. &copy; moBack Inc."
+  }],
+  "modal5": [{
+    "img": "Aren2.png,Aren1.png",
+    "title" : "AREN",
+    "tech": "Node.js, MongoDB, Expres, Angular, AJAX, YeoMan Full-Stack generator",
+    "link": "https://www.moback.com/",
+    "desc": "A library for 360-degree videos(fbx files). "
+  }],
+  "modal6": [{
+    "img": "MTDB.png",
+    "title" : "MTDB",
+    "tech": "Python, HTML5, CSS",
+    "link": "https://github.com/asmita0105/Projects/tree/master/MTDB",
+    "desc": "A project to store a list of movies, including box art imagery and a movie trailer URL. This data was served as a web page allowing visitors to review their movies and watch the trailers."
+  }]
+
+}

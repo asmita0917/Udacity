@@ -1,0 +1,13 @@
+# my-portfolio
+
+This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
+version 0.15.1.
+
+## Build & development
+
+Run `grunt` for building and `grunt serve` for preview.
+
+## Testing
+
+Running `grunt test` will run the unit tests with karma.
+#####Test is not written in project.you can preview it using grunt serve.

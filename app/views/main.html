@@ -1,0 +1,147 @@
+<!--<div class="container-fluid">-->
+  <div class="row">
+    <div class="container">
+    <div class="col-md-4 "><a href="#/Home"><img class="img-responsive title-logo" src="images/image_logo.png"></a> <h1 class="text-thin ">Asmita Dutta</h1></div>
+    <div class="col-lg-8 " >
+      <nav  id="menu" class="menu" ng-click="classcall()">
+      <ul class="nav navbar-nav ">
+
+        <li class="active"><a href="#/">Home</a></li>
+        <li><a href="#/about">About</a></li>
+
+      </ul>
+        <a id="bar"  class=" nav_toggle ">
+          <span class="bar bar_top"></span>
+          <span class="bar bar_med"></span>
+          <span class="bar bar_bottom"></span>
+        </a>
+      </nav>
+
+    </div>
+
+    </div>
+  </div>
+  <div class="row main-bar">
+    <div class="container">
+      <div class=" col-md-2 img-bar">
+        <img class="img-bar" src="images/main_img.jpg">
+      </div>
+      <div class="col-md-10  main-content">
+        <p class="text-justify bar-font-color">I'm a full time student at University of California, Santa Cruz, Silicon Valley extension.
+          I'm pursuing  a certificate course in Computer Programming. I'm very passionate about web development and currently
+          looking for a full time position as full stack engineer.
+          When I am not coding, I love traveling, painting and sketching.
+
+        </p>
+        <!-- <div><h3>Find me on...</h3> </div> -->
+        <div id="social" class="align-center">
+          <span>
+
+          <a class="margin_l" href="https://twitter.com/dutta_asmita"  ><span class="entypo-twitter margin_l"></span></a>
+          <a class="margin_l" href="https://github.com/asmita0105" > <span class="entypo-github margin_l" ></span></a>
+          <a class="margin_l" href="https://plus.google.com/" ><span class="entypo-gplus margin_l " ></span></a><a class="margin_l" href="https://www.linkedin.com/in/asmita-dutta-75096169" ><span class="entypo-linkedin margin_l " ></span></a>
+        </span>
+        </div>
+      </div>
+      </div>
+
+
+    </div>
+  </div>
+<div class="container ">
+  <div>
+    <h2 class="text-muted">Featured Work</h2>
+  </div>
+  <div class="row text-center imgEve" >
+    <div class="col-md-4 ">
+      <img  class="img-responsive cursor-pos" src="images/TankMain.png"  id="model1" data-toggle="modal" data-target="#myModal"  ng-click="click1(htmlData.modal1[0])" ng>
+      <h3>{{htmlData.modal1[0].title}}</h3>
+      <p class="cursor-pos"><!--<a ng-click="redirectTo(htmlData.modal1[0].link);" target="_blank">Link to project</a>--></p>
+    </div>
+    <div class="col-md-4 ">
+      <img  class="img-responsive cursor-pos" src="images/GH4.png" data-toggle="modal" data-target="#myModal" id="model2" ng-click="click1(htmlData.modal2[0])">
+      <h3>{{htmlData.modal2[0].title}}</h3>
+      <p class="cursor-pos"><!--<a ng-click="redirectTo(htmlData.modal2[0].link);" target="_blank">Link to project</a>--></p>
+    </div>
+    <div class="col-md-4 ">
+      <img  class="img-responsive cursor-pos" src="images/GoTicket.png" data-toggle="modal" data-target="#myModal" id="model3" ng-click="click1(htmlData.modal3[0])">
+      <h3>{{htmlData.modal3[0].title}}</h3>
+      <p class="cursor-pos"><!--<a ng-click="redirectTo(htmlData.modal3[0].link);" target="_blank">Link to project</a>--></p>
+    </div>
+
+  </div>
+  <div class="row text-center" >
+    <div  class="col-md-4">
+      <img class="img-responsive cursor-pos" src="images/moBackApps.png" data-toggle="modal" data-target="#myModal" id="model4" ng-click="click1(htmlData.modal4[0])">
+      <h3>{{htmlData.modal4[0].title}}</h3>
+      <p class="cursor-pos"><!--<a ng-click="redirectTo(htmlData.modal4[0].link);" target="_blank">Link to project</a>--></p>
+    </div>
+    <div  class="col-md-4">
+      <img  class="img-responsive cursor-pos" src="images/Aren2.png" data-toggle="modal" data-target="#myModal" id="model5" ng-click="click1(htmlData.modal5[0])">
+      <h3>{{htmlData.modal5[0].title}}</h3>
+      <p class="cursor-pos"><!--<a ng-click="redirectTo(htmlData.modal5[0].link);" target="_blank">Link to project</a>--></p>
+    </div>
+    <div  class="col-md-4">
+      <img  class="img-responsive cursor-pos" src="images/MTDB.png" data-toggle="modal" data-target="#myModal" id="model6" ng-click="click1(htmlData.modal6[0])">
+      <h3>{{htmlData.modal6[0].title}}</h3>
+      <p class="cursor-pos"><!--<a ng-click="redirectTo(htmlData.modal6[0].link);" target="_blank">Link to project</a>--></p>
+    </div>
+
+  </div>
+</div>
+<div class="row bottom_bar">
+  <div class="container">
+    <div class="col-md-12 ">
+      <!--<img class="img-responsive" src="http://placehold.it/1320x350">-->
+      <br><br><br>
+      <p class="text-justify bar-font-color">I'm always happy to contribute to any full stack project, please contact me on <a href="https://www.linkedin.com/profile/edit?trk=hp-identity-edit-profile">LinkedIn.</a>
+
+      </p>
+    </div>
+
+  </div>
+
+</div>
+<div class="container ">
+  <div class="col-md-6  ">
+    <h2>Education </h2>
+
+      <ul>
+    <li><p class="font-bold">University of California Santa Cruz,</p><p>Silicon Valley Extension</p><p class="text-justify "> Computer Programming certificate  <i>Sept 2015 - June 2016</i></p></li>
+    <li><p class="font-bold"> Udacity  </p> <p class="text-justify ">Full Stack Web Developer NanoDegree <i>June 2016</i></p></li>
+    <li><p class="font-bold"> Kurukshetra University, India </p><p class="text-justify ">Bachelor of Technology in Computer Science <i>2013</i></p></li>
+        <div class="read-more"><a href="#/about/#education">...Read More</a></div>
+  </ul>
+
+
+  </div>
+  <div class="col-md-6">
+    <h2>Work Experience</h2>
+    <ul>
+      <li><p class="font-bold">moBack Inc. </p><p class="text-justify" >Software Developer Intern <p>Sunnyvale, CA, USA</p></p><p><i>Jan 2016 - Present</i></p></li>
+      <li><p class="font-bold">OpenFirms Consulting, India <p class="text-justify" >Software Engineer </p><p><i>August 2013  – March 2015</i> </p></li>
+    </ul>
+    <div class="read-more left-read-more"><a href="#/about/#workEx">...Read More</a></div>
+  </div>
+
+</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
+        <h4 class="modal-title" id="myModalLabel"></h4>
+      </div>
+      <div id = "modal-body-gen" class="modal-body">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+      </div>
+    </div>
+  </div>
+</div>
